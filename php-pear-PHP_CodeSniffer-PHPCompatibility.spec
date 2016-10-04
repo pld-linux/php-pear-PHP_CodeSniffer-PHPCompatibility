@@ -2,7 +2,7 @@
 Summary:	PHP Compatibility Coding Standard for PHP_CodeSniffer
 Name:		php-pear-PHP_CodeSniffer-%{ruleset}
 Version:	7.0.6
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	https://github.com/wimg/PHPCompatibility/archive/%{version}/%{ruleset}-%{version}.tar.gz
@@ -25,7 +25,7 @@ version compatibility.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{ruledir}
-cp -a Sniffs ruleset.xml $RPM_BUILD_ROOT%{ruledir}
+cp -a Sniffs Sniff.php ruleset.xml $RPM_BUILD_ROOT%{ruledir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
