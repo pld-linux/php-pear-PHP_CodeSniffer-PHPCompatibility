@@ -1,12 +1,12 @@
 %define		ruleset	PHPCompatibility
 Summary:	PHP Compatibility Coding Standard for PHP_CodeSniffer
 Name:		php-pear-PHP_CodeSniffer-%{ruleset}
-Version:	7.0.8
+Version:	7.1.1
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	https://github.com/wimg/PHPCompatibility/archive/%{version}/%{ruleset}-%{version}.tar.gz
-# Source0-md5:	1cc8306bd834731c212e0f94d91774d8
+# Source0-md5:	bb03714ff635a71dd415fa7026ae3734
 URL:		http://techblog.wimgodden.be/tag/codesniffer/
 Requires:	php-pear
 Requires:	php-pear-PHP_CodeSniffer >= 1:2.6
